@@ -1,0 +1,5 @@
+{
+    "watch": ["./rc/*.json", "./rcmini/*.json"],
+    "exec": "tsx ./scripts/typeGenerator.ts",
+    "ext": "json"
+}
