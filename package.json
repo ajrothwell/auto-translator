@@ -1,5 +1,6 @@
 {
-    "name": "locales",
+    "name": "@phila/auto-translator",
+    "description": "A tool to translate and manage localization files.",
     "version": "0.0.0",
     "private": true,
     "license": "MIT",
