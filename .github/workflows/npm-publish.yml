@@ -24,14 +24,6 @@ jobs:
           node-version: '22.x'
           cache: 'npm'
 
-      - name: Install dependencies
-        run: |
-          printf "//registry.npmjs.com/:_authToken=${NODE_AUTH_TOKEN}\n@fortawesome:registry=https://npm.fontawesome.com/\n//npm.fontawesome.com/:_authToken=${FONTAWESOME_NPM_AUTH_TOKEN}" >> ~/.npmrc
-          npm ci
-          npm run build:production
-        env:
-          VITE_DEBUG: ${{ secrets.VITE_DEBUG }}
-
       - uses: actions/setup-node@v3
         with:
           node-version: '22.x'
