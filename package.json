@@ -1,8 +1,8 @@
 {
     "name": "@phila/auto-translator",
     "description": "A tool to translate and manage localization files.",
-    "version": "0.0.2",
-    "private": true,
+    "version": "0.0.0",
+    "private": false,
     "license": "MIT",
     "scripts": {
         "diff": "tsx scripts/diff.ts"
