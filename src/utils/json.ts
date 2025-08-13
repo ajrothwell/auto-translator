@@ -1,6 +1,6 @@
 import assert from 'assert';
 import chalk from 'chalk';
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'fs';
 import { join, normalize, resolve } from 'node:path';
 
 export const keyConcat = (acc: Record<string, any>, [parentKey, value]) => {

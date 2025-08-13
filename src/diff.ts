@@ -10,7 +10,8 @@ import { hash } from './utils/hash.ts';
 
 // import { inflate } from 'flattenjs'
 
-import fs from 'fs';
+// import fs from 'fs';
+import { writeFile } from 'node:fs';
 import { parse } from 'path';
 
 type LocaleChangeItem = {
@@ -164,7 +165,7 @@ export const diff = async() => {
     const formattedJson = JSON.stringify(inflated, null, 2);
     // console.log('formattedJson:', formattedJson);
     
-    fs.writeFile(`i18n/${languageCode}.js`, 'export default'+formattedJson, 'utf8', (err) => {
+    writeFile(`src/i18n/${languageCode}.json`, 'export default'+formattedJson, 'utf8', (err) => {
       if (err) {
         console.error('Error writing file:', err);
       }
