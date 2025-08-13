@@ -1,12 +1,14 @@
 {
   "name": "@phila/auto-translator",
   "description": "A tool to translate and manage localization files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "license": "MIT",
-  "files":["dist"],
-  "main":"./dist/auto-translator.umd.js",
-  "module":"./dist/auto-translator.es.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/auto-translator.umd.js",
+  "module": "./dist/auto-translator.es.js",
   "exports": {
     ".": {
       "import": "./dist/auto-translator.es.js",
