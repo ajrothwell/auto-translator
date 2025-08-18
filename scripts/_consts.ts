@@ -17,6 +17,8 @@ export const clientParams = {
     }),
 };
 
+console.log('clientParams:', clientParams);
+
 // export enum ProductType {
 //     RC = 'RC',
 //     MINI = 'MINI',
