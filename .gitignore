@@ -2,3 +2,5 @@ artifacts
 node_modules
 ~
 .aws
+.env
+.env.template
