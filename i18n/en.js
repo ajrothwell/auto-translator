@@ -1,6 +1,5 @@
 export default{
   "app": {
-    "title": "Primary care finder",
     "subtitle": "Free and low-cost medical care in Philadelphia",
     "noResults": "No health centers found. Please check your spelling or remove some of your filters, and try again."
   },

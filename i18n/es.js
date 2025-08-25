@@ -1,7 +1,6 @@
 export default{
   "app": {
-    "title": "Buscador de atención primaria",
-    "subtitle": "Atención médica gratuita y de bajo costo en Filadelfia",
+    "subtitle": "don't translate this",
     "noResults": "No se encontró ningún centro de salud. Comprueba la ortografía o elimina algunos de los filtros e inténtalo de nuevo."
   },
   "introPage": {
