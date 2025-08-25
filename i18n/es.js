@@ -1,6 +1,7 @@
 export default{
   "app": {
-    "subtitle": "don't translate this",
+    "test": "¿Dónde está la biblioteca?",
+    "title": "Buscador de atención primaria",
     "noResults": "No se encontró ningún centro de salud. Comprueba la ortografía o elimina algunos de los filtros e inténtalo de nuevo."
   },
   "introPage": {
